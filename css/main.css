@@ -1,62 +1,62 @@
 html {
   box-sizing: border-box;
-  background-color: #eee9de;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-img {
-  display: inline-block;
-  padding: .4em .75em .5em;
-  margin: 5% 0 3% 5%;
-  vertical-align: middle;
+body {
+  background-color: #eee9de;
+  padding: 1em;
+  margin: 0 auto;
 }
 
 .box-2 {
-  z-index: 1;
+  width: 28%;
+  /* margin-right:2rem; */
+  /* padding: 2rem 0; */
+  display: inline;
 }
 
-section {
-  width: 100%;
-}
-
-div {
+.btn{
   display: inline-block;
-  margin: 0 auto;
-  text-align: left;
-  clear: both;
-  margin: 5% 0 3% 5%;
+  width: 70%;
+  vertical-align: top;
+  padding-top: 1.2rem;
+
 }
 
-.btn {
-  text-align: left;
-  position: relative;
+img {
+  width: 100%;
+  max-width: 450px;
+  min-width: 320px;
+  padding: 1em 1em 1em .75em;
 }
 
 h2 {
+  text-align: left;
   font-size: 1.5em;
   font-family: Lato, serif;
-  margin: 30px 0;
+  margin: 0 0 2rem 0;
 }
 
-div p {
+.btn>p {
+  text-align: left;
   width: 90%;
   color: #333;
-  line-height: 1.5;
   text-align: left;
-  font-family: Lato, serif;
   max-width: 40em;
 }
 
 p {
+  line-height: 1.5;
   font-size: 1em;
   font-family: Lato, serif;
-  line-height: 1.5;
 }
 
 a {
+  text-align: left;
   text-decoration: none;
   display: inline-block;
   padding: .75em;
@@ -70,4 +70,22 @@ a {
 a:hover {
   background-color: #666;
   color: #eee9de;
+}
+
+section {
+  width: 100%;
+  max-width: 960;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/* @media screen(min-width:840px){
+  section {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .btn {
+    width: 40%
+  } */
 }
