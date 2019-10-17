@@ -8,19 +8,17 @@ html {
 
 body {
   background-color: #eee9de;
-  margin: 0 auto;
-  max-width: 25em;
+  margin: 0;
+  width: auto;
 }
 
 div {
   padding: 0 1em;
   display: inline-block;
-  text-align: left;
   vertical-align: middle;
 }
 
 .btn {
-  vertical-align: top;
   max-width: 25em;
   margin: 0 auto;
 }
@@ -29,11 +27,10 @@ div {
   min-width: 20em;
   padding: 1em;
   margin: 0 auto;
-  /* margin-bottom: 1.25rem */
+  max-width: 25em;
 }
 
 h2 {
-  text-align: left;
   font-size: 1.5em;
   font-family: lato, serif;
   margin-top: 0;
@@ -43,7 +40,6 @@ p {
   line-height: 1.5;
   font-size: 1em;
   font-family: lato, serif;
-  text-align: left;
   color: #333;
   margin-bottom: 1.5rem;
   margin-top: 0;
@@ -51,9 +47,10 @@ p {
 }
 
 img {
+  display: inline;
   width: 100%;
-  display: inline-block;
   margin-bottom: 1.5rem;
+  vertical-align: middle;
 }
 
 a {
@@ -66,19 +63,20 @@ a {
   font-family: Lato, serif;
   font-weight: bold;
   color: #333;
-  font-size: 1em
+  font-size: 1em;
+}
+
+section {
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: left;
+  vertical-align: middle;
+  margin: auto;
+  display: inline-block;
 }
 
 a:hover {
   background-color: #666;
   color: #eee9de;
-}
-
-section {
-  width: 100%;
-  max-width: 25em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  text-align: left;
-  vertical-align: middle;
 }
